@@ -14,7 +14,6 @@ Solution URL:  https://github.com/aleksandre1303/js-logical-operator
 Live Site URL: https://aleksandre1303.github.io/js-logical-operator/
 
 
-
 ## Task
 
 Check the login
