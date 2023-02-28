@@ -3,7 +3,16 @@
 I am new to javascript and have done some tasks on javascript.info
 
 ## Javascript
+
 - resource: https://javascript.info/
+
+
+### Links
+
+Solution URL:  https://github.com/aleksandre1303/js-logical-operator
+
+Live Site URL: https://aleksandre1303.github.io/Conditional-branching-if--/
+
 
 
 ## Task
@@ -26,13 +35,6 @@ For an empty string or cancelled input, show “Canceled”
 ## My Solution
 
 <img width="451" alt="Screenshot 2023-02-28 at 23 06 20" src="https://user-images.githubusercontent.com/67371847/221955231-62716cdf-91cd-4407-b7ec-67356ec70afd.png">
-
-
-### Links
-
-Solution URL:  https://github.com/aleksandre1303/js-logical-operator
-
-Live Site URL: https://aleksandre1303.github.io/Conditional-branching-if--/
 
 
 ## Author
