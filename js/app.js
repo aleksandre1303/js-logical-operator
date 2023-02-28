@@ -1,5 +1,23 @@
 /* Tasks */
 
+let userName = prompt("Who's there?", "");
+
+if (userName === "Admin") {
+  let userPassword = prompt("Password?");
+
+  if (userPassword === "TheMaster") {
+    alert("Welcome!");
+  } else if (userPassword === "" || userPassword === null) {
+    alert("Canceled");
+  } else {
+    alert("Wrong password");
+  }
+} else if (userName === "" || userName === null) {
+  alert("Canceled");
+} else {
+  alert("I don't know you");
+}
+
 /* 
   What's the result of OR?
   
@@ -10,9 +28,9 @@
 
 // Solution //
 
-alert(null || 2 || undefined);
+// alert(null || 2 || undefined);
 
-alert(null || 2 || undefined); // 2
+// alert(null || 2 || undefined); // 2
 
 /* 
   What's the result of OR'ed alerts?
@@ -24,9 +42,9 @@ alert(null || 2 || undefined); // 2
 
 // Solution //
 
-alert(alert(1) || 2 || alert(3));
+// alert(alert(1) || 2 || alert(3));
 
-alert(alert(1) || 2 || alert(3)); // first 1, then 2.
+// alert(alert(1) || 2 || alert(3)); // first 1, then 2.
 
 /* 
   What is the result of AND?
@@ -37,9 +55,9 @@ alert(alert(1) || 2 || alert(3)); // first 1, then 2.
 
 // Solution //
 
-alert(1 && null && 2);
+// alert(1 && null && 2);
 
-alert(1 && null && 2); // null
+// alert(1 && null && 2); // null
 
 /* 
   What is the result of AND'ed alerts?
@@ -53,7 +71,7 @@ alert(1 && null && 2); // null
 
 // Solution //
 
-alert(alert(1) && alert(2)); // first 1, then undefined
+// alert(alert(1) && alert(2)); // first 1, then undefined
 
 /* 
   The result of OR AND OR
@@ -67,7 +85,7 @@ alert(alert(1) && alert(2)); // first 1, then undefined
 
 // Solution //
 
-alert(null || (2 && 3) || 4); // 3, because "&&" is higher than ||
+// alert(null || (2 && 3) || 4); // 3, because "&&" is higher than ||
 
 /* 
   Check the range between
@@ -81,8 +99,8 @@ alert(null || (2 && 3) || 4); // 3, because "&&" is higher than ||
 
 // Solution //
 
-if (age >= 14 && age <= 90)
-  if (!(age >= 14) && age <= 90) if (age < 14 || age > 90); // second variant
+// if (age >= 14 && age <= 90)
+// if (!(age >= 14) && age <= 90) if (age < 14 || age > 90); // second variant
 
 /* 
   A question about "if"
@@ -134,21 +152,3 @@ if (age >= 14 && age <= 90)
     alert( "I don't know you" );
   }
 */
-
-let userName = prompt("Who's there?", "");
-
-if (userName === "Admin") {
-  let userPassword = prompt("Password?");
-
-  if (userPassword === "TheMaster") {
-    alert("Welcome!");
-  } else if (userPassword === "" || userPassword === null) {
-    alert("Canceled");
-  } else {
-    alert("Wrong password");
-  }
-} else if (userName === "" || userName === null) {
-  alert("Canceled");
-} else {
-  alert("I don't know you");
-}
