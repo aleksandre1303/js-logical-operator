@@ -11,7 +11,7 @@ I am new to javascript and have done some tasks on javascript.info
 
 Solution URL:  https://github.com/aleksandre1303/js-logical-operator
 
-Live Site URL: https://aleksandre1303.github.io/Conditional-branching-if--/
+Live Site URL: https://aleksandre1303.github.io/js-logical-operator/
 
 
 
